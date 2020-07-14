@@ -19,7 +19,7 @@ server.get("/", (req, res) => {
   res.send("It's alive!");
 });
 
-server.get("/", (req, res) => {
+server.get("/api", (req, res) => {
   const payload = {
     subject: "thisuser",
     userid: "Jblack",

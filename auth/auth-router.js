@@ -46,7 +46,7 @@ function generateToken(user) {
   const payload = {
     subject: user.id,
     username: user.username,
-    departments: ["STUDENT", "ADMIN", "STAFF", "GUESTS"],
+    department: ["STUDENT", "ADMIN", "STAFF", "GUESTS"],
     isStudent: true,
     isAdmin: false,
   };
